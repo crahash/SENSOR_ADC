@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB5E7B51C6DE85A00F4ACC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5E7B41C6DE85A00F4ACC5 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CB5E7B01C6DE85A00F4ACC5 /* Index */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Index; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB5E7B41C6DE85A00F4ACC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3CB5E7B71C6DE85A00F4ACC5 /* Makefile */ = {isa = PBXFileReference; path = Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3CB5E7A31C6DE85900F4ACC5 = {
+			isa = PBXGroup;
+			children = (
+				3CB5E7B31C6DE85A00F4ACC5 /* SENSOR_ADC_02 */,
+				3CB5E7B11C6DE85A00F4ACC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB5E7B11C6DE85A00F4ACC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5E7B01C6DE85A00F4ACC5 /* Index */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB5E7B31C6DE85A00F4ACC5 /* SENSOR_ADC_02 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5E7B41C6DE85A00F4ACC5 /* main.c */,
+				3CB5E7B61C6DE85A00F4ACC5 /* Makefiles */,
+			);
+			path = SENSOR_ADC_02;
+			sourceTree = "<group>";
+		};
+		3CB5E7B61C6DE85A00F4ACC5 /* Makefiles */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5E7B71C6DE85A00F4ACC5 /* Makefile */,
+			);
+			name = Makefiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		3CB5E7AA1C6DE85A00F4ACC5 /* All */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "all -C \"$(PROJECT)\"";
+			buildConfigurationList = 3CB5E7BA1C6DE85A00F4ACC5 /* Build configuration list for PBXLegacyTarget "All" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = All;
+			passBuildSettingsInEnvironment = 1;
+			productName = All;
+		};
+		3CB5E7AB1C6DE85A00F4ACC5 /* Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "build -C \"$(PROJECT)\"";
+			buildConfigurationList = 3CB5E7BD1C6DE85A00F4ACC5 /* Build configuration list for PBXLegacyTarget "Build" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Build;
+			passBuildSettingsInEnvironment = 1;
+			productName = Build;
+		};
+		3CB5E7AC1C6DE85A00F4ACC5 /* Upload */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "program -C \"$(PROJECT)\"";
+			buildConfigurationList = 3CB5E7C01C6DE85A00F4ACC5 /* Build configuration list for PBXLegacyTarget "Upload" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Upload;
+			passBuildSettingsInEnvironment = 1;
+			productName = Upload;
+		};
+		3CB5E7AD1C6DE85A00F4ACC5 /* Clean */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "clean -C \"$(PROJECT)\"";
+			buildConfigurationList = 3CB5E7C31C6DE85A00F4ACC5 /* Build configuration list for PBXLegacyTarget "Clean" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Clean;
+			passBuildSettingsInEnvironment = 1;
+			productName = Clean;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		3CB5E7AF1C6DE85A00F4ACC5 /* Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB5E7C61C6DE85A00F4ACC5 /* Build configuration list for PBXNativeTarget "Index" */;
+			buildPhases = (
+				3CB5E7AE1C6DE85A00F4ACC5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Index;
+			productName = Index;
+			productReference = 3CB5E7B01C6DE85A00F4ACC5 /* Index */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB5E7A51C6DE85900F4ACC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3CB5E7A81C6DE85900F4ACC5 /* Build configuration list for PBXProject "SENSOR_ADC_02" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CB5E7A31C6DE85900F4ACC5;
+			productRefGroup = 3CB5E7B11C6DE85A00F4ACC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB5E7AA1C6DE85A00F4ACC5 /* All */,
+				3CB5E7AB1C6DE85A00F4ACC5 /* Build */,
+				3CB5E7AC1C6DE85A00F4ACC5 /* Upload */,
+				3CB5E7AD1C6DE85A00F4ACC5 /* Clean */,
+				3CB5E7AF1C6DE85A00F4ACC5 /* Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB5E7AE1C6DE85A00F4ACC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB5E7B51C6DE85A00F4ACC5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CB5E7B81C6DE85A00F4ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1,",
+					"__AVR_ATmega8__,",
+					"F_CPU=8000000",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/CrossPack-AVR/include",
+					.,
+					"/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/include",
+					"/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/include-fixed",
+					"/usr/local/CrossPack-AVR-20131216/avr/include",
+				);
+				PATH = "$(PATH):$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CB5E7B91C6DE85A00F4ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__AVR_ATmega8__,",
+					"F_CPU=8000000",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/CrossPack-AVR/include",
+					.,
+					"/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/include",
+					"/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/include-fixed",
+					"/usr/local/CrossPack-AVR-20131216/avr/include",
+				);
+				PATH = "$(PATH):$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CB5E7BB1C6DE85A00F4ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CB5E7BC1C6DE85A00F4ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CB5E7BE1C6DE85A00F4ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3CB5E7BF1C6DE85A00F4ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		3CB5E7C11C6DE85A00F4ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3CB5E7C21C6DE85A00F4ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		3CB5E7C41C6DE85A00F4ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3CB5E7C51C6DE85A00F4ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		3CB5E7C71C6DE85A00F4ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3CB5E7C81C6DE85A00F4ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB5E7A81C6DE85900F4ACC5 /* Build configuration list for PBXProject "SENSOR_ADC_02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB5E7B81C6DE85A00F4ACC5 /* Debug */,
+				3CB5E7B91C6DE85A00F4ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB5E7BA1C6DE85A00F4ACC5 /* Build configuration list for PBXLegacyTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB5E7BB1C6DE85A00F4ACC5 /* Debug */,
+				3CB5E7BC1C6DE85A00F4ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB5E7BD1C6DE85A00F4ACC5 /* Build configuration list for PBXLegacyTarget "Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB5E7BE1C6DE85A00F4ACC5 /* Debug */,
+				3CB5E7BF1C6DE85A00F4ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB5E7C01C6DE85A00F4ACC5 /* Build configuration list for PBXLegacyTarget "Upload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB5E7C11C6DE85A00F4ACC5 /* Debug */,
+				3CB5E7C21C6DE85A00F4ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB5E7C31C6DE85A00F4ACC5 /* Build configuration list for PBXLegacyTarget "Clean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB5E7C41C6DE85A00F4ACC5 /* Debug */,
+				3CB5E7C51C6DE85A00F4ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB5E7C61C6DE85A00F4ACC5 /* Build configuration list for PBXNativeTarget "Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB5E7C71C6DE85A00F4ACC5 /* Debug */,
+				3CB5E7C81C6DE85A00F4ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB5E7A51C6DE85900F4ACC5 /* Project object */;
+}
